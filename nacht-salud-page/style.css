@@ -1,0 +1,23 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    color: blue;
+    padding: 0px 0px 0px 80px;
+}
+
+.MainMenu {
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+.MainMenu-Quienes{
+    padding-right: 40px;
+    background: whitesmoke;
+}
+
+.MainMenu-list{
+    padding-right: 40px;
+}

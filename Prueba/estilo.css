@@ -1,0 +1,153 @@
+*{
+   font-family: sans-serif;
+}
+
+
+.u-title{
+    color: #00ccff;
+    border-bottom: 2px dashed #00ccff;
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.MainMenu {
+    background: #1E1E1E;
+    text-align: center;
+    height: 3.75em;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: sans-serif;
+}
+
+.MainMenu-list {
+    margin: 0;
+    padding: 0;
+}
+
+.MainMenu-item {
+    display: inline-block;
+}
+
+.MainMenu-link {
+    color: #00dbff;
+    text-decoration: none;
+    line-height: 3.75em;
+    margin-right: 1.5em;
+}
+
+.MainMenu a:hover {
+    background: gray;
+    padding: 5px;
+}
+
+
+.Header{ 
+    margin-top: 3.75em;
+    background-image: url("../Prueba/images/banner.jpg") ;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 1.2em 0;
+}
+
+.Header-imageContainer{
+    margin: 0;
+}
+
+.Header-image{
+    border: 5px solid white;
+    border-radius: 150px;
+}
+
+.Header-name,
+.Header-link{
+    color: white;
+}
+
+.Header-link{
+    font-size: 2.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Header-name{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 0;
+}
+
+.Profile{
+    text-align: center;
+}
+
+.Profile-link{
+    background: orange;
+    color: white;
+    text-decoration: none;
+    padding: .5em 1em;
+    border-radius: 2em;
+    margin-right: .5em;
+}
+
+
+.Work{
+    margin-top: 2em;
+    text-align: center;
+}
+
+.Work-item{
+    display: inline-block;
+}
+
+.Work-description{
+    color: #515151;
+    font-size: 1.1em;
+    font-style: italic;
+    text-align: center;
+}
+
+.Footer{
+    background-image: url(../Prueba/images/fondo-footer.jpg);
+    color: white;
+    margin-bottom: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+}
+
+.Footer-form{
+    text-align: center;
+    display: inline;
+}
+
+.Footer-title{
+    color: white;
+}
+
+.Footer-formInput,
+.Footer-textarea {
+    background: white;
+    border: none;
+    display: block;
+    border-radius: 2em;
+    padding: .5em;
+    margin: 0 auto 1em;
+}
+
+.Footer-textarea{
+    resize: none;
+}
+
+.Footer-button{
+    background: palegreen;
+    color: black;
+    border-radius: 1em;
+    border: none;
+    padding: .5em 44.2em;
+}

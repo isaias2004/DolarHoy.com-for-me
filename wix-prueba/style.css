@@ -1,0 +1,129 @@
+*{
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+}
+
+.imagen{
+    height: 100px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    float: left;
+}
+
+.MainMenu {
+    display: flex;
+    float: right ;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.MainMenu-list {
+    list-style: none;
+    display: flex;
+}
+
+.menu {
+    padding: 24px 40px 0px 20px;
+}
+
+.menu a:hover {
+    color: #1E90FF;
+}
+
+
+.cuadro-3  a:hover{
+    background: #1e6dbd;
+    color: white;
+}
+
+.cuadro{
+    height: auto;
+    padding-left: 132px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.entrar{
+    background: #1E90FF;
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+}
+
+.banner{
+    background-image: url(/imagenes/banner.webp);
+    background-size: 100%;
+    height: 1100px;
+    background-repeat: no-repeat;
+}
+
+.texto-grande{
+    font-size: .8em;
+
+}
+
+.texto {
+    color: white;
+    padding: 170px 0px 0px 40px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.texto-1 {
+    padding: 19px;
+}
+
+
+.empieza-ya{
+    color: #1e6dbd;
+    background: white;
+    padding: 15px 50px 15px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.empieza-ya-2 a:hover{
+    background: #1e6dbd;
+    color: white;
+}
+
+.empieza-ya-2{
+    text-align: center;
+
+}
+
+.libertad{
+    float: left;
+    padding: 0px 0px 0px 30px ;
+    font-size: 50px;
+}
+
+.parrafo-1{
+   font-size: 20px;
+   padding-right: 90px;
+   float: right;
+   
+}
+
+.parrafo{
+    padding: 0px 60px 0px 0px;
+    line-height: 1.8em;
+}
+
+
+#empezar{
+    font-size: 25px;
+    list-style: none;
+    border-bottom: black;
+    padding-right: 0px;
+}
+  
